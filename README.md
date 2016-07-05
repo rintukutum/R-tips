@@ -1,5 +1,4 @@
-# R-tips
-R-tips | :)
+# R-tips | :)
 
 ```R
 1. tip-1 : start & end R-sessions :)
