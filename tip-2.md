@@ -3,11 +3,9 @@
 ```R
 big.data <- read.table(file = 'big-data.txt',
                        sep = ',',
-                                              header = TRUE, # if any
-                                                                     stringsAsFactors = FALSE # very important step; it will save your time a lots
+                       header = TRUE, # if any
+                       stringsAsFactors = FALSE # very important step; it will save your time a lots
                                                                                             )
-
-
 ```
 - let say the size of above data is 22K x 2K
 - we want to remove 1000 rows from 21001 to 23000
