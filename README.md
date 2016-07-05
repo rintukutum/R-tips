@@ -19,7 +19,7 @@ big.data <- read.table(file = 'big-data.txt',
 # avoid
 big.data <- big.data[-c(21001:23000),] # it will take more time
 
-# try this
+# try this save time
 big.data.n <- big.data[-c(21001:23000),]
 rm(big.data)
 ```
